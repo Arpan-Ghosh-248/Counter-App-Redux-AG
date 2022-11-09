@@ -38,14 +38,14 @@ function Index() {
         <button style={{
             backgroundColor: "grey",
             color: "white",
-            padding: "15px 50px"
+            padding: "15px 47px"
         }} onClick={()=>dispatch(deccreaseValue())}>Decrement</button>
       
 
         <button style={{
             backgroundColor: "grey",
             color: "white",
-            padding: "15px 50px"
+            padding: "15px 62px"
         }}onClick={()=>{dispatch(resetValue())}}>Reset</button>
        <p><h3>{value}</h3></p>
     </div>
